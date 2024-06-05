@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('Norse-Font.otf');
+}
+
+h1 {
+    font-family: 'Norse', 'Courier New', sans-serif;
+    font-size: 60px;
+}
+
+.text {
+    font-family: 'Lucida Console', 'Courier New', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+#container {
+    width: 100%;
+}
+
+#column1,
+#column2 {
+    width: 50%;
+    float: left;
+}
+
+div#container {
+    text-align: center;
+}
+
+ol.list,
+ul.list {
+    font-family: 'Lucida Console', 'Courier New', sans-serif;
+    display: inline-block;
+    text-align: left;
+}
+
+.list li {
+    padding: 6px;
+    font-size: large;
+}
